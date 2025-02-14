@@ -4,3 +4,5 @@ My developer portfolio. It is coded using ReactJS, and includes my programming s
 ## Projects
 
 ## Profiles
+- GitHub Profile: [PresidentTree94](https://github.com/PresidentTree94)
+- Frontend Mentor Profile: [PresidentTree94](https://www.frontendmentor.io/profile/PresidentTree94)
