@@ -1,7 +1,9 @@
 # PresidentTree94 Portfolio
-My developer portfolio. It is coded using ReactJS, and includes my programming skills and projects. It is and will be updated regularly. 
+My developer portfolio. It is coded using ReactJS (with Vite) and includes my programming skills and projects. It may be expanded to include an introduction and experience or education. It is and will be updated regularly. 
 
 ## Projects
+Every project has an "Original Work," which is the base project using HTML, CSS, and possibly Javascript. Some will have "React Extensions," which are extended versions of the project in ReactJS.
+
 ### Getting started on Frontend Mentor
 - QR Code Component: [Original Work](https://github.com/PresidentTree94/qr-code-component)
 - Blog Preview Card: [Original Work](https://github.com/PresidentTree94/blog-preview-card)
