@@ -13,7 +13,7 @@ Every project has an "Original Work," which is the base project using HTML, CSS,
 ### Building responsive layouts
 - Product Preview Card Component: [Original Work](https://github.com/PresidentTree94/product-preview-card-component)
 - Four Card Preview Section: [Original Work](https://github.com/PresidentTree94/four-card-feature-section)
-- Testimonials Grid Section: Original Work
+- Testimonials Grid Section: [Original Work](https://github.com/PresidentTree94/testimonials-grid-section)
 - Meeting Landing Page: Original Work
 
 ## Profiles
