@@ -14,7 +14,12 @@ Every project has an "Original Work," which is the base project using HTML, CSS,
 - Product Preview Card Component: [Original Work](https://github.com/PresidentTree94/product-preview-card-component)
 - Four Card Preview Section: [Original Work](https://github.com/PresidentTree94/four-card-feature-section)
 - Testimonials Grid Section: [Original Work](https://github.com/PresidentTree94/testimonials-grid-section)
-- Meeting Landing Page: Original Work
+
+### JavaScript fundamentals
+- Article Preview Component: Original Work
+- NewsLetter Sign-Up: Original Work
+- Time Tracking Dashboard: Original Work
+- Tip Calculator App: Original Work
 
 ## Profiles
 - GitHub Profile: [PresidentTree94](https://github.com/PresidentTree94)
