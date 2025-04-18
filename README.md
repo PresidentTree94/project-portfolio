@@ -2,7 +2,7 @@
 My developer portfolio. It is coded using ReactJS (with Vite) and includes my programming skills and projects. It may be expanded to include an introduction and experience or education. The portfolio is a single-page application that leads to all of my other GitHub repositories. Most of the HTML is in `App.js`, while most of the CSS is in `index.css`. The components, Skill and Website, have their respective HTML and use styled-components for the CSS. It will eventually become a two-page application to prevent the "Projects" section from getting too long. Projects are saved to a JSON database file. It is and will be updated regularly. 
 
 ## Projects
-Every project has an "Original Work," which is the base project using HTML, CSS, and possibly Javascript. Some will have "React Extensions," which are extended versions of the project in ReactJS.
+Every project has an "Original Work," which is the base project using HTML, CSS, and Javascript. Some will have "React Extensions," which are extended versions of the project in ReactJS.
 
 ### Getting started on Frontend Mentor
 - QR Code Component: [Original Work](https://github.com/PresidentTree94/qr-code-component)
@@ -17,7 +17,7 @@ Every project has an "Original Work," which is the base project using HTML, CSS,
 - ~~Meeting Landing Page: Original Work~~
 
 ### JavaScript fundamentals
-- Article Preview Component: Original Work
+- Article Preview Component: [Original Work](https://github.com/PresidentTree94/article-preview-component)
 - NewsLetter Sign-Up: Original Work
 - Time Tracking Dashboard: Original Work
 - Tip Calculator App: Original Work
