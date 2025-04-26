@@ -18,7 +18,7 @@ Every project has an "Original Work," which is the base project using HTML, CSS,
 
 ### JavaScript fundamentals
 - Article Preview Component: [Original Work](https://github.com/PresidentTree94/article-preview-component)
-- NewsLetter Sign-Up: Original Work
+- NewsLetter Sign-Up: [Original Work](https://github.com/PresidentTree94/newsletter-sign-up-form)
 - Time Tracking Dashboard: Original Work
 - Tip Calculator App: Original Work
 - ~~Password Generator App: Original Work~~
