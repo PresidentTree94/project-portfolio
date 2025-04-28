@@ -5,10 +5,10 @@ My developer portfolio. It is coded using ReactJS (with Vite) and includes my pr
 Every project has an "Original Work," which is the base project using HTML, CSS, and Javascript. Some will have "React Extensions," which are extended versions of the project in ReactJS.
 
 ### Getting started on Frontend Mentor
-- QR Code Component: [Original Work](https://github.com/PresidentTree94/qr-code-component)
+- QR Code Component: [Original Work](https://github.com/PresidentTree94/qr-code-component), [React Extension](https://github.com/PresidentTree94/qr-code-component-extension)
 - Blog Preview Card: [Original Work](https://github.com/PresidentTree94/blog-preview-card)
 - Social Links Profile: [Original Work](https://github.com/PresidentTree94/social-links-profile)
-- Recipe Page: [Original Work](https://github.com/PresidentTree94/recipe-page), React Extension TBA
+- Recipe Page: [Original Work](https://github.com/PresidentTree94/recipe-page)
 
 ### Building responsive layouts
 - Product Preview Card Component: [Original Work](https://github.com/PresidentTree94/product-preview-card-component)
