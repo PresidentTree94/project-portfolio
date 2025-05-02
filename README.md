@@ -7,7 +7,7 @@ Every project has an "Original Work," which is the base project using HTML, CSS,
 ### Getting started on Frontend Mentor
 - QR Code Component: [Original Work](https://github.com/PresidentTree94/qr-code-component), [React Extension](https://github.com/PresidentTree94/qr-code-component-extension)
 - Blog Preview Card: [Original Work](https://github.com/PresidentTree94/blog-preview-card), [React Extension](https://github.com/PresidentTree94/blog-preview-card-extension)
-- Social Links Profile: [Original Work](https://github.com/PresidentTree94/social-links-profile)
+- Social Links Profile: [Original Work](https://github.com/PresidentTree94/social-links-profile), [React Extension](https://github.com/PresidentTree94/social-links-profile-extension)
 - Recipe Page: [Original Work](https://github.com/PresidentTree94/recipe-page)
 
 ### Building responsive layouts
