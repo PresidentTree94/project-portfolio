@@ -1,0 +1,92 @@
+[
+  {
+    "label": "HTML",
+    "checklist": [
+      {"score": 2, "criteria": "Demonstrates mastery of foundational document structure using standard HTML5 elements."},
+      {"score": 2, "criteria": "Applies semantic markup to enhance content clarity and accessibility."},
+      {"score": 1, "criteria": "Constructs and validates forms with appropriate input types and user feedback mechanisms."},
+      {"score": 0, "criteria": "Implements accessible markup practices including ARIA roles and descriptive attributes."},
+      {"score": 1, "criteria": "Applies foundational SEO principles through structured content and metadata."}
+    ]
+  },
+  {
+    "label": "CSS",
+    "checklist": [
+      {"score": 2, "criteria": "Utilizes selectors and styling properties to create visually coherent interfaces."},
+      {"score": 2, "criteria": "Applies box model concepts and layout techniques to control element positioning."},
+      {"score": 1, "criteria": "Designs responsive layouts using media/container queries and scalable units."},
+      {"score": 2, "criteria": "Constructs flexible and grid-based layouts using Flexbox and CSS Grid."},
+      {"score": 1, "criteria": "Enhances user experience through transitions, animations, and visual effects."}
+    ]
+  },
+  {
+    "label": "Javascript",
+    "checklist": [
+      {"score": 2, "criteria": "Writes syntactically correct code using variables, control structures, and data types."},
+      {"score": 2, "criteria": "Defines and invokes functions with appropriate scope and closure awareness."},
+      {"score": 1, "criteria": "Manipulates the DOM and handles user interactions effectively."},
+      {"score": 1, "criteria": "Implements asynchronous logic using Promises and async/await."},
+      {"score": 1, "criteria": "Utilizes modern ES6+ features to write clean, modular, and maintainable code."}
+    ]
+  },
+  {
+    "label": "Typescript",
+    "checklist": [
+      {"score": 2, "criteria": "Applies static typing to variables, functions, and data structures for improved reliability."},
+      {"score": 1, "criteria": "Defines interfaces and custom types to enforce consistent data contracts."},
+      {"score": 0, "criteria": "Leverages type inference and narrowing to enhance code safety and readability."},
+      {"score": 1, "criteria": "Implements generic types to build reusable and type-safe components."},
+      {"score": 0, "criteria": "Configures and maintains TypeScript projects using tsconfig.json and build tools."}
+    ]
+  },
+  {
+    "label": "ReactJS",
+    "checklist": [
+      {"score": 2, "criteria": "Develops functional components using JSX and adheres to React conventions."},
+      {"score": 1, "criteria": "Manages component state and data flow using props and useState."},
+      {"score": 0, "criteria": "Handles user input and form logic within component boundaries."},
+      {"score": 1, "criteria": "Utilizes React hooks such as useEffect and useRef to manage side effects and references."},
+      {"score": 1, "criteria": "Structures applications with reusable components and context for scalable state management."}
+    ]
+  },
+  {
+    "label": "NextJS",
+    "checklist": [
+      {"score": 2, "criteria": "Implements file-based routing and dynamic page generation."},
+      {"score": 0, "criteria": "Applies static and server-side rendering strategies using Next.js data-fetching methods."},
+      {"score": 0, "criteria": "Develops backend functionality through API routes within the application."},
+      {"score": 0, "criteria": "Optimizes performance using built-in components for images and metadata."},
+      {"score": 0, "criteria": "Deploys applications with environment configuration and version control best practices."}
+    ]
+  },
+  {
+    "label": "Unity",
+    "checklist": [
+      {"score": 2, "criteria": "Writes C# scripts leveraging Unity’s API and lifecycle methods for game behavior."},
+      {"score": 2, "criteria": "Configures game objects, prefabs, and component hierarchies effectively."},
+      {"score": 1, "criteria": "Integrates user input and physics systems using Unity’s built-in tools."},
+      {"score": 1, "criteria": "Designs interactive UI elements and manages scene transitions."},
+      {"score": 1, "criteria": "Applies scripting patterns such as coroutines, event-driven architecture, and singletons."}
+    ]
+  },
+  {
+    "label": "Java",
+    "checklist": [
+      {"score": 1, "criteria": "Develops object-oriented programs using encapsulation, inheritance, and polymorphism."},
+      {"score": 2, "criteria": "Utilizes Java collections and control structures to manage data and logic flow."},
+      {"score": 1, "criteria": "Implements robust error handling through exception management and custom exceptions."},
+      {"score": 1, "criteria": "Performs file operations using Java I/O streams and readers."},
+      {"score": 1, "criteria": "Constructs multithreaded applications with synchronization and concurrency control."}
+    ]
+  },
+  {
+    "label": "Python",
+    "checklist": [
+      {"score": 2, "criteria": "Writes clean and efficient code using core data structures and control flow."},
+      {"score": 1, "criteria": "Organizes functionality using modular design and built-in libraries."},
+      {"score": 1, "criteria": "Handles file operations and exceptions with Pythonic conventions."},
+      {"score": 1, "criteria": "Implements object-oriented principles and decorators for reusable logic."},
+      {"score": 1, "criteria": "Manages environments and dependencies while utilizing popular libraries for development."}
+    ]
+  }
+]

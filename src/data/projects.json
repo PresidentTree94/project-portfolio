@@ -1,0 +1,23 @@
+[
+  {
+    "title": "unpopular exchange",
+    "description": "My first Next.js and TypeScript project: a web application for sharing, voting, and debating unpopular opinions and pet peeves.",
+    "skills": ["HTML", "CSS", "NextJS"],
+    "isGitHub": false,
+    "isLive": false
+  },
+  {
+    "title": "qr code component extension",
+    "description": "A remake of Frontend Mentor's <a href='https://presidenttree94.github.io/qr-code-component/' target='_blank' rel='noopener noreferrer'>QR Code Component</a> challenge. Unlike the original, the user can generate, customize, save, and download QR codes.",
+    "skills": ["HTML", "CSS", "ReactJS"],
+    "isGitHub": true,
+    "isLive": true
+  },
+  {
+    "title": "blog preview card extension",
+    "description": "A remake of Frontend Mentor's <a href='https://presidenttree94.github.io/blog-preview-card/' target='_blank' rel='noopener noreferrer'>Blog Preview Card</a> challenge. Unlike the original, the user can filter, sort, and search through six fake blog posts.",
+    "skills": ["HTML", "CSS", "ReactJS"],
+    "isGitHub": true,
+    "isLive": true
+  }
+]

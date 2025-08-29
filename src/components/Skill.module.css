@@ -1,0 +1,43 @@
+.div {
+  padding: 1.5rem;
+  background-color: var(--cardColor);
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.div div:first-of-type {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.div div:first-of-type svg {
+  height: 1.75rem;
+  width: auto;
+  color: var(--highlightColor);
+}
+
+.div div:last-of-type {
+  display: flex;
+  gap: 0.25rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.div div:last-of-type svg {
+  width: 1.5rem;
+  height: auto;
+  color: var(--darklightColor);
+}
+
+.div p {
+  font-size: 0.875rem;
+  text-align: right;
+  color: var(--smallTextColor);
+}
+
+@media (width < 452px) {
+  .div div:last-of-type {
+    display: grid;
+    grid-template-columns: repeat(5, min-content);
+  }
+}

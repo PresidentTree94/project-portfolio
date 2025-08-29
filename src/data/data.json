@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Unpopular Exchange",
+    "description": "My first project built with Next.js and TypeScript. It will also use Vercel and Supabase.",
+    "links": [
+      {"label": "GitHub", "url": ""}
+    ]
+  },
+  {
+    "title": "QR Code Component",
+    "description": "",
+    "links": [
+      {"label": "O", "url": ""},
+      {"label": "R", "url": ""},
+      {"label": "Frontend Mentor", "url": "https://www.frontendmentor.io/solutions/qr-code-component-xixkp7hzyW"}
+    ]
+  },
+  {
+    "title": "Blog Preview Card",
+    "description": "",
+    "links": [
+      {"label": "O", "url": ""},
+      {"label": "R", "url": ""},
+      {"label": "Frontend Mentor", "url": "https://www.frontendmentor.io/solutions/blog-preview-card-pHA7bfGQ9B"}
+    ]
+  },
+  {
+    "title": "Social Links Profile",
+    "description": "",
+    "links": [
+      {"label": "O", "url": ""},
+      {"label": "R", "url": ""},
+      {"label": "Frontend Mentor", "url": "https://www.frontendmentor.io/solutions/social-links-profile-Eb1ydPJOT_"}
+    ]
+  },
+  {
+    "title": "Recipe Page",
+    "description": "",
+    "links": [
+      {"label": "O", "url": ""},
+      {"label": "Frontend Mentor", "url": "https://www.frontendmentor.io/solutions/recipe-page-Jdvqz8aFNJ"}
+    ]
+  },
+  {
+    "title": "Product Preview Card Component",
+    "description": "",
+    "links": [
+      {"label": "O", "url": ""},
+      {"label": "Frontend Mentor", "url": "https://www.frontendmentor.io/solutions/product-preview-card-component-504WGtIZmX"}
+    ]
+  },
+  {
+    "title": "Four Card Feature Section",
+    "description": "",
+    "links": [
+      {"label": "O", "url": ""},
+      {"label": "Frontend Mentor", "url": "https://www.frontendmentor.io/solutions/four-card-feature-section-VILMXR5SVO"}
+    ]
+  },
+  {
+    "title": "Testimonials Grid Section",
+    "description": "",
+    "links": [
+      {"label": "O", "url": ""},
+      {"label": "Frontend Mentor", "url": "https://www.frontendmentor.io/solutions/testimonials-grid-section-_tfcsjiFYY"}
+    ]
+  },
+  {
+    "title": "Article Preview Component",
+    "description": "",
+    "links": [
+      {"label": "O", "url": ""},
+      {"label": "Frontend Mentor", "url": "https://www.frontendmentor.io/solutions/article-preview-component-DBye-Mj1xW"}
+    ]
+  },
+  {
+    "title": "Newsletter Sign Up Form",
+    "description": "",
+    "links": [
+      {"label": "O", "url": ""},
+      {"label": "Frontend Mentor", "url": "https://www.frontendmentor.io/solutions/newsletter-sign-up-form-with-javascript-dark-mode-xFPJjwgY9K"}
+    ]
+  }
+]
