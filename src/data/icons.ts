@@ -1,5 +1,5 @@
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
-import { faCss3Alt, faHtml5, faJava, faPython, faReact, faSquareJs, faUnity } from "@fortawesome/free-brands-svg-icons";
+import { faCss3Alt, faGitAlt, faHtml5, faJava, faPython, faReact, faSquareJs, faUnity } from "@fortawesome/free-brands-svg-icons";
 import { faN, faT } from "@fortawesome/free-solid-svg-icons";
 
 export const IconMap: Record<string, IconDefinition> = {
@@ -11,5 +11,6 @@ export const IconMap: Record<string, IconDefinition> = {
   NextJS: faN,
   Unity: faUnity,
   Java: faJava,
-  Python: faPython
+  Python: faPython,
+  Git: faGitAlt
 }

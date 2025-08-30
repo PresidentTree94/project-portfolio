@@ -88,5 +88,15 @@
       {"score": 1, "criteria": "Implements object-oriented principles and decorators for reusable logic."},
       {"score": 1, "criteria": "Manages environments and dependencies while utilizing popular libraries for development."}
     ]
+  },
+  {
+    "label": "Git",
+    "checklist": [
+      {"score": 2, "criteria": "Initializes repositories, stages changes, commits with meaningful messages, and views commit history."},
+      {"score": 1, "criteria": "Creates and switches branches, merges changes, and resolves simple merge conflicts."},
+      {"score": 1, "criteria": "Connects to remote repositories, pushes and pulls changes, and collaborates using git."},
+      {"score": 0, "criteria": "Reverts changes, resets commits, and manages work-in-progress without losing context."},
+      {"score": 0, "criteria": "Applies Git in team workflows, uses .gitignore effectively, and understands rebasing and squash merges."}
+    ]
   }
 ]
