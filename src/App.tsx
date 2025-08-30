@@ -8,7 +8,7 @@ function App() {
     <>
       <main>
         <section id="top">
-          <img src="/PresidentTree.png" />
+          <img src="/project-portfolio/PresidentTree.png" />
           <article>
             <p>Hello, I'm</p>
             <h1>President<wbr/>Tree94</h1>
