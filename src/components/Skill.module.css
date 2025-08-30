@@ -35,7 +35,7 @@
   color: var(--smallTextColor);
 }
 
-@media (width < 452px) {
+@media (width < 28.25rem) {
   .div div:last-of-type {
     display: grid;
     grid-template-columns: repeat(5, min-content);

@@ -1,8 +1,8 @@
 [
   {
     "title": "unpopular exchange",
-    "description": "My first Next.js and TypeScript project: a web application for sharing, voting, and debating unpopular opinions and pet peeves.",
-    "skills": ["HTML", "CSS", "NextJS"],
+    "description": "My first Next.js and Typescript project: a web application for sharing, voting, and debating unpopular opinions and pet peeves.",
+    "skills": ["HTML", "CSS", "NextJS", "Typescript"],
     "isGitHub": false,
     "isLive": false
   },

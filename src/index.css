@@ -179,7 +179,7 @@ a {
   color: var(--smallTextColor);
 }
 
-@media (width < 888px) {
+@media (width < 55.5rem) {
   main {
     margin: 2rem;
     padding: 2rem;
@@ -202,7 +202,7 @@ a {
   }
 }
 
-@media (width < 808px) {
+@media (width < 50.5rem) {
   h1 {
     font-size: 3rem;
   }
