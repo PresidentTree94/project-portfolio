@@ -16,7 +16,7 @@ An skills assessment featuring a nature-inspired visualization where mastery lev
 
 **Maximum Score:** 10 leaves per skill (representing full mastery)
 
-#### HTML
+#### HTML (6/10)
 | Score | Criteria |
 |:------|:---------|
 | 2     | Demonstrates mastery of foundational document structure using standard HTML5 elements. |
@@ -25,15 +25,86 @@ An skills assessment featuring a nature-inspired visualization where mastery lev
 | 0     | Implements accessible markup practices including ARIA roles and descriptive attributes. |
 | 1     | Applies foundational SEO principles through structured content and metadata. |
 
-#### CSS
-#### Javascript
-#### Typescript
-#### ReactJS
-#### NextJS
-#### Unity
-#### Java
-#### Python
-#### Git
+#### CSS (8/10)
+| Score | Criteria |
+|:------|:---------|
+| 2     | Utilizes selectors and styling properties to create visually coherent interfaces. |
+| 2     | Applies box model concepts and layout techniques to control element positioning. |
+| 1     | Designs responsive layouts using media/container queries and scalable units. |
+| 2     | Constructs flexible and grid-based layouts using Flexbox and CSS Grid. |
+| 1     | Enhances user experience through transitions, animations, and visual effects. |
+
+#### Javascript (7/10)
+| Score | Criteria |
+|:------|:---------|
+| 2     | Writes syntactically correct code using variables, control structures, and data types. |
+| 2     | Defines and invokes functions with appropriate scope and closure awareness. |
+| 1     | Manipulates the DOM and handles user interactions effectively. |
+| 1     | Implements asynchronous logic using Promises and async/await. |
+| 1     | Utilizes modern ES6+ features to write clean, modular, and maintainable code. |
+
+#### Typescript (4/10)
+| Score | Criteria |
+|:------|:---------|
+| 2     | Applies static typing to variables, functions, and data structures for improved reliability. |
+| 1     | Defines interfaces and custom types to enforce consistent data contracts. |
+| 0     | Leverages type inference and narrowing to enhance code safety and readability. |
+| 1     | Implements generic types to build reusable and type-safe components. |
+| 0     | Configures and maintains TypeScript projects using tsconfig.json and build tools. |
+
+#### ReactJS (5/10)
+| Score | Criteria |
+|:------|:---------|
+| 2     | Develops functional components using JSX and adheres to React conventions. |
+| 1     | Manages component state and data flow using props and useState. |
+| 0     | Handles user input and form logic within component boundaries. |
+| 1     | Utilizes React hooks such as useEffect and useRef to manage side effects and references. |
+| 1     | Structures applications with reusable components and context for scalable state management. |
+
+#### NextJS (2/10)
+| Score | Criteria |
+|:------|:---------|
+| 2     | Implements file-based routing and dynamic page generation. |
+| 0     | Applies static and server-side rendering strategies using Next.js data-fetching methods. |
+| 0     | Develops backend functionality through API routes within the application. |
+| 0     | Optimizes performance using built-in components for images and metadata. |
+| 0     | Deploys applications with environment configuration and version control best practices. |
+
+#### Unity (7/10)
+| Score | Criteria |
+|:------|:---------|
+| 2     | Writes C# scripts leveraging Unity’s API and lifecycle methods for game behavior. |
+| 2     | Configures game objects, prefabs, and component hierarchies effectively. |
+| 1     | Integrates user input and physics systems using Unity’s built-in tools. |
+| 1     | Designs interactive UI elements and manages scene transitions. |
+| 1     | Applies scripting patterns such as coroutines, event-driven architecture, and singletons. |
+
+#### Java (6/10)
+| Score | Criteria |
+|:------|:---------|
+| 1     | Develops object-oriented programs using encapsulation, inheritance, and polymorphism. |
+| 2     | Utilizes Java collections and control structures to manage data and logic flow. |
+| 1     | Implements robust error handling through exception management and custom exceptions. |
+| 1     | Performs file operations using Java I/O streams and readers. |
+| 1     | Constructs multithreaded applications with synchronization and concurrency control. |
+
+#### Python (6/10)
+| Score | Criteria |
+|:------|:---------|
+| 2     | Writes clean and efficient code using core data structures and control flow. |
+| 1     | Organizes functionality using modular design and built-in libraries. |
+| 1     | Handles file operations and exceptions with Pythonic conventions. |
+| 1     | Implements object-oriented principles and decorators for reusable logic. |
+| 1     | Manages environments and dependencies while utilizing popular libraries for development. |
+
+#### Git (4/10)
+| Score | Criteria |
+|:------|:---------|
+| 2     | Initializes repositories, stages changes, commits with meaningful messages, and views commit history. |
+| 1     | Creates and switches branches, merges changes, and resolves simple merge conflicts. |
+| 1     | Connects to remote repositories, pushes and pulls changes, and collaborates using git. |
+| 0     | Reverts changes, resets commits, and manages work-in-progress without losing context. |
+| 0     | Applies Git in team workflows, uses .gitignore effectively, and understands rebasing and squash merges. |
 
 ### Education
 Currently showcasing academic credentials with plans to expand into a comprehensive experience section. Each entry includes institution names, degree information, and timeline.
@@ -48,8 +119,8 @@ A curated collection of development projects demonstrating practical application
 - **Project Description:** Purpose, upgrades, key features
 - **Live Access:** Direct links to deployed applications and source code
 
-**Unpopular Exchange:** [GitHub](https://github.com/PresidentTree94/unpopular-exchange)
-**QR Code Component Extension:** [GitHub](https://github.com/PresidentTree94/qr-code-component-extension), [Live Demo](https://presidenttree94.github.io/qr-code-component-extension/)
+**Unpopular Exchange:** [GitHub](https://github.com/PresidentTree94/unpopular-exchange)\
+**QR Code Component Extension:** [GitHub](https://github.com/PresidentTree94/qr-code-component-extension), [Live Demo](https://presidenttree94.github.io/qr-code-component-extension/)\
 **Blog Preview Card Extension:**: [GitHub](https://github.com/PresidentTree94/blog-preview-card-extension), [Live Demo](https://presidenttree94.github.io/blog-preview-card-extension/)
 
 ## Planned Modifications
