@@ -121,7 +121,7 @@ A curated collection of development projects demonstrating practical application
 
 **Unpopular Exchange:** [GitHub](https://github.com/PresidentTree94/unpopular-exchange)\
 **QR Code Component Extension:** [GitHub](https://github.com/PresidentTree94/qr-code-component-extension), [Live Demo](https://presidenttree94.github.io/qr-code-component-extension/)\
-**Blog Preview Card Extension:**: [GitHub](https://github.com/PresidentTree94/blog-preview-card-extension), [Live Demo](https://presidenttree94.github.io/blog-preview-card-extension/)
+**Blog Preview Card Extension:** [GitHub](https://github.com/PresidentTree94/blog-preview-card-extension), [Live Demo](https://presidenttree94.github.io/blog-preview-card-extension/)
 
 ## Planned Modifications
 The following enhancements are scheduled for future releases:
