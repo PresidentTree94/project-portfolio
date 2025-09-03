@@ -36,7 +36,7 @@ function Website({ data }: { data: Project }) {
           </div>
           <div>
             {data.isLive && <a href={live} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faUpRightFromSquare} /></a>}
-            <a href={github} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+            {data.isGitHub && <a href={github} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>}
           </div>
         </div>
       </div>
