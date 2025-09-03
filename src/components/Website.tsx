@@ -9,6 +9,7 @@ type Project = {
   title: string;
   description: string;
   skills: string[];
+  screenshot: string;
   isGitHub: boolean;
   isLive: boolean;
 }
@@ -17,7 +18,7 @@ function Website({ data }: { data: Project }) {
   const name = data.title.split(" ").join("-");
   const github = "https://github.com/PresidentTree94/" + name;
   const live = "https://presidenttree94.github.io/" + name + "/";
-  const screenshot = data.isGitHub ? "https://raw.githubusercontent.com/PresidentTree94/" + name + "/refs/heads/main/screenshot.png" : "https://placehold.co/600x323?text=" + data.title.toUpperCase().split(" ").join("+");
+  const screenshot = data.screenshot ? data.screenshot : "https://placehold.co/600x323?text=" + data.title.toUpperCase().split(" ").join("+");
 
   return (
     <div className={`${styles.div} item`}>

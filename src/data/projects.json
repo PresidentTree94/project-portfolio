@@ -3,13 +3,15 @@
     "title": "unpopular exchange",
     "description": "My first Next.js and Typescript project: a web application for sharing, voting, and debating unpopular opinions and pet peeves.",
     "skills": ["HTML", "CSS", "NextJS", "Typescript"],
+    "screenshot": "",
     "isGitHub": false,
     "isLive": false
   },
   {
-    "title": "qr code component extension",
-    "description": "A remake of Frontend Mentor's <a href='https://presidenttree94.github.io/qr-code-component/' target='_blank' rel='noopener noreferrer'>QR Code Component</a> challenge. Unlike the original, the user can generate, customize, save, and download QR codes.",
-    "skills": ["HTML", "CSS", "ReactJS"],
+    "title": "qr code generator",
+    "description": "A remake of Frontend Mentor's <a href='https://presidenttree94.github.io/qr-code-component/' target='_blank' rel='noopener noreferrer'>QR Code Component</a> challenge. Unlike the original, the user can customize, save, load, and download QR codes.",
+    "skills": ["HTML", "CSS", "ReactJS", "Typescript"],
+    "screenshot": "https://raw.githubusercontent.com/PresidentTree94/qr-code-generator/refs/heads/main/public/screenshot.png",
     "isGitHub": true,
     "isLive": true
   },
@@ -17,6 +19,7 @@
     "title": "blog preview card extension",
     "description": "A remake of Frontend Mentor's <a href='https://presidenttree94.github.io/blog-preview-card/' target='_blank' rel='noopener noreferrer'>Blog Preview Card</a> challenge. Unlike the original, the user can filter, sort, and search through six fake blog posts.",
     "skills": ["HTML", "CSS", "ReactJS"],
+    "screenshot": "https://raw.githubusercontent.com/PresidentTree94/blog-preview-card-extension/refs/heads/main/screenshot.png",
     "isGitHub": true,
     "isLive": true
   }
