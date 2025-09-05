@@ -1,10 +1,11 @@
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import { faCss3Alt, faGitAlt, faHtml5, faJava, faPython, faReact, faSquareJs, faUnity } from "@fortawesome/free-brands-svg-icons";
-import { faN, faT } from "@fortawesome/free-solid-svg-icons";
+import { faN, faParagraph, faT } from "@fortawesome/free-solid-svg-icons";
 
 export const IconMap: Record<string, IconDefinition> = {
   HTML: faHtml5,
   CSS: faCss3Alt,
+  Tailwind: faParagraph,
   Javascript: faSquareJs,
   Typescript: faT,
   ReactJS: faReact,

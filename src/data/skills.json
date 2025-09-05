@@ -20,6 +20,16 @@
     ]
   },
   {
+    "label": "Tailwind",
+    "checklist": [
+      {"score": 0, "criteria": "Applies core utility classes without relying on custom CSS."},
+      {"score": 0, "criteria": "Uses breakpoint prefixes to build mobile-first, responsive interfaces with adaptive layouts."},
+      {"score": 0, "criteria": "Constructs reusable UI components using Tailwind’s utility classes and consistent design patterns."},
+      {"score": 0, "criteria": "Modifies the config file to extend and customize styling, and optimize builds with purge settings."},
+      {"score": 0, "criteria": "Integrates into modern frameworks, leverages plugins, and adheres to scalable design conventions."}
+    ]
+  },
+  {
     "label": "Javascript",
     "checklist": [
       {"score": 2, "criteria": "Writes syntactically correct code using variables, control structures, and data types."},
