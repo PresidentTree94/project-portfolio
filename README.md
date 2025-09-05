@@ -106,7 +106,7 @@ An assessment where skill levels is evaluated across five key criteria, with sco
 ## Projects
 - **Unpopular Exchange:** *Private*
 - **QR Code Generator:** [GitHub](https://github.com/PresidentTree94/qr-code-generator), [Live Demo](https://presidenttree94.github.io/qr-code-generator/)
-**Blog Preview Collection:** [GitHub](https://github.com/PresidentTree94/blog-preview-collection), [Live Demo](https://presidenttree94.github.io/blog-preview-collection/)
+- **Blog Preview Collection:** [GitHub](https://github.com/PresidentTree94/blog-preview-collection), [Live Demo](https://presidenttree94.github.io/blog-preview-collection/)
 
 ## Planned Modifications
 The following enhancements are scheduled for future releases:
