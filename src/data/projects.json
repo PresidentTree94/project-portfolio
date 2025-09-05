@@ -16,10 +16,10 @@
     "isLive": true
   },
   {
-    "title": "blog preview card extension",
-    "description": "A remake of Frontend Mentor's <a href='https://presidenttree94.github.io/blog-preview-card/' target='_blank' rel='noopener noreferrer'>Blog Preview Card</a> challenge. Unlike the original, the user can filter, sort, and search through six fake blog posts.",
-    "skills": ["HTML", "CSS", "ReactJS"],
-    "screenshot": "https://raw.githubusercontent.com/PresidentTree94/blog-preview-card-extension/refs/heads/main/screenshot.png",
+    "title": "blog preview collection",
+    "description": "A remake of Frontend Mentor's <a href='https://presidenttree94.github.io/blog-preview-card/' target='_blank' rel='noopener noreferrer'>Blog Preview Card</a> challenge. Unlike the original, the user can filter, sort, and search through nine fake blog posts.",
+    "skills": ["HTML", "CSS", "ReactJS", "Typescript"],
+    "screenshot": "https://raw.githubusercontent.com/PresidentTree94/blog-preview-collection/refs/heads/main/public/screenshot.png",
     "isGitHub": true,
     "isLive": true
   }
