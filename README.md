@@ -31,14 +31,14 @@ An assessment where skill levels is evaluated across five key criteria, with sco
 | 2     | Constructs flexible and grid-based layouts using Flexbox and CSS Grid. |
 | 1     | Enhances user experience through transitions, animations, and visual effects. |
 
-### Tailwind (0/10)
+### Tailwind (5/10)
 | Score | Criteria |
 |:------|:---------|
-| 0     | Applies core utility classes without relying on custom CSS. |
-| 0     | Uses breakpoint prefixes to build mobile-first, responsive interfaces with adaptive layouts. |
-| 0     | Constructs reusable UI components using Tailwind’s utility classes and consistent design patterns. |
-| 0     | Modifies the config file to extend and customize styling, and optimize builds with purge settings. |
-| 0     | Integrates into modern frameworks, leverages plugins, and adheres to scalable design conventions. |
+| 1     | Applies core utility classes without relying on custom CSS. |
+| 1     | Uses breakpoint prefixes and variants to build adaptive, interactive interfaces. |
+| 1     | Customizes design tokens directly in CSS using the CSS-first configuration model. |
+| 1     | Leverages cascade layers and container queries to build flexible, scalable designs. |
+| 1     | Integrates into modern frameworks with minimal configuration. |
 
 ### Javascript (7/10)
 | Score | Criteria |

@@ -22,11 +22,11 @@
   {
     "label": "Tailwind",
     "checklist": [
-      {"score": 0, "criteria": "Applies core utility classes without relying on custom CSS."},
-      {"score": 0, "criteria": "Uses breakpoint prefixes to build mobile-first, responsive interfaces with adaptive layouts."},
-      {"score": 0, "criteria": "Constructs reusable UI components using Tailwind’s utility classes and consistent design patterns."},
-      {"score": 0, "criteria": "Modifies the config file to extend and customize styling, and optimize builds with purge settings."},
-      {"score": 0, "criteria": "Integrates into modern frameworks, leverages plugins, and adheres to scalable design conventions."}
+      {"score": 1, "criteria": "Applies core utility classes without relying on custom CSS."},
+      {"score": 1, "criteria": "Uses breakpoint prefixes and variants to build adaptive, interactive interfaces."},
+      {"score": 1, "criteria": "Customizes design tokens directly in CSS using the CSS-first configuration model."},
+      {"score": 1, "criteria": "Leverages cascade layers and container queries to build flexible, scalable designs."},
+      {"score": 1, "criteria": "Integrates into modern frameworks with minimal configuration."}
     ]
   },
   {
