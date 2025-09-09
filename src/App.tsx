@@ -17,7 +17,7 @@ function App() {
       <section>
         <h2>Skills</h2>
         <article className="grid">
-          <i>Reference the README for the score breakdown.</i>
+          <i>Reference the <a href="https://github.com/PresidentTree94/project-portfolio" target="_blank" rel="noopener noreferrer">README</a> for the score breakdown.</i>
           {Skills.map((item) => (
             <Skill data={item} />
           ))}
