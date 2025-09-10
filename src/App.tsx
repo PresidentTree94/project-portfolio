@@ -5,46 +5,46 @@ import Website from "./components/Website";
 
 function App() {
   return (
-    <main>
-      <section id="top">
-        <img src="/project-portfolio/PresidentTree.png" />
+    <main className="bg-component-bg flex flex-col m-8 ll:m-12 p-8 ll:p-12 rounded-3xl shadow-xl min-w-64 max-w-224">
+      <section className="flex flex-col tl:flex-row text-center tl:text-left items-center gap-8 ll:gap-12">
+        <img src="/project-portfolio/PresidentTree.png" className="rounded-full w-40 border-4 border-solid border-accent-light shadow-lg animate-pulse" />
         <article>
-          <p>Hello, I'm</p>
-          <h1>President<wbr/>Tree94</h1>
-          <p>A junior developer with a passion for building beautiful and functional digital experiences. I find inspiration in the growth of code and nature.</p>
+          <p className="text-2xl font-medium text-accent-light">Hello, I'm</p>
+          <h1 className="text-5xl tl:text-7xl font-bold mt-2 mb-4">President<wbr/>Tree94</h1>
+          <p className="text-lg tl:text-xl wrap-pretty">A junior developer with a passion for building beautiful and functional digital experiences. I find inspiration in the growth of code and nature.</p>
         </article>
       </section>
       <section>
         <h2>Skills</h2>
-        <article className="grid">
-          <i>Reference the <a href="https://github.com/PresidentTree94/project-portfolio" target="_blank" rel="noopener noreferrer">README</a> for the score breakdown.</i>
+        <article className="grid-layout">
+          <i className="col-span-full text-center">Reference the <a href="https://github.com/PresidentTree94/project-portfolio" target="_blank" rel="noopener noreferrer">README</a> for the score breakdown.</i>
           {Skills.map((item) => (
             <Skill data={item} />
           ))}
         </article>
       </section>
-      <section id="education">
+      <section>
         <h2>Education</h2>
-        <article>
-          <div>
+        <article className="flex flex-col gap-4 mt-8">
+          <div className="bg-card-bg p-6 rounded-2xl flex flex-col tl:flex-row justify-between tl:items-center gap-2 shadow-md">
             <div>
               <h3>University of Maryland Global Campus</h3>
-              <p>Bachelor of Science in Computer Science</p>
+              <p className="text-subtext-fg">Bachelor of Science in Computer Science</p>
             </div>
-            <p>2022 - 2024</p>
+            <p className="text-sidetext-fg">2022 - 2024</p>
           </div>
-          <div>
+          <div className="bg-card-bg p-6 rounded-2xl flex flex-col tl:flex-row justify-between tl:items-center gap-2 shadow-md">
             <div>
               <h3>College of Southern Maryland</h3>
-              <p>Associate of Science in Computer Science</p>
+              <p className="text-subtext-fg">Associate of Science in Computer Science</p>
             </div>
-            <p>2020 - 2022</p>
+            <p className="text-sidetext-fg">2020 - 2022</p>
           </div>
         </article>
       </section>
       <section>
         <h2>Projects</h2>
-        <article className="grid">
+        <article className="grid-layout">
           {Websites.map((item) => (
             <Website data={item} />
           ))}

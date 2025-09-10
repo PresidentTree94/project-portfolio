@@ -1,239 +1,64 @@
-:root {
-  --backgroundColor: rgb(241, 229, 212);
-  --accentColor: rgb(255, 255, 255);
-  --cardColor: rgb(243, 244, 246);
-  --disableColor: rgb(209, 213, 219);
-  --textColor: rgb(38, 38, 38);
-  --smallTextColor: rgb(107, 114, 128);
-  --subTextColor: rgb(55, 65, 81); 
-  --highlightColor: rgb(112, 173, 71);
-  --darklightColor: rgb(85, 109, 9);
+@import "tailwindcss";
+
+@theme {
+  --color-page-bg: rgb(241, 229, 212);
+  --color-component-bg: rgb(255, 255, 255);
+  --color-card-bg: rgb(243, 244, 246);
+  --color-text-fg: rgb(38, 38, 38);
+  --color-subtext-fg: rgb(55, 65, 81);
+  --color-sidetext-fg: rgb(107, 114, 128);
+  --color-accent-light: rgb(112, 173, 71);
+  --color-accent-dark: rgb(85, 109, 9);
+  --color-disable-fg: rgb(209, 213, 219);
+  --font-display: Poppins, sans-serif;
+  --font-headers: Bebas Neue, sans-serif;
+  --breakpoint-ll: 55.5rem;
+  --breakpoint-tl: 50.5rem;
+  --breakpoint-mt: 28.25rem;
 }
 
 /*https://pptmon.com/nature-plants-portfolio/*/
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.125rem;
-  background-color: var(--backgroundColor);
-  color: var(--textColor);
-}
-
-#root {
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 3rem;
-  padding: 3rem;
-  border-radius: 1.5rem;
-  background-color: var(--accentColor);
-  max-width: 56rem;
-  min-width: 16rem;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); 
-}
-
-section:not(:last-of-type) {
-  padding-bottom: 3rem;
-  border-bottom: 2px dashed #556d09;
-}
-
-section:not(:first-of-type) {
-  padding-top: 3rem;
-  width: 100%;
-}
-
-h1, h2, h3 {
-  text-transform: uppercase;
-  font-family: "Bebas Neue", sans-serif;
-  letter-spacing: 0.025em;
-  line-height: 1;
-}
-
-h1 {
-  font-size: 4.5rem;
-  font-weight: 700;
-  margin: 0.5rem 0 1rem;
-}
-
-h2 {
-  font-size: 3rem;
-  font-weight: 500;
-  text-align: center;
-}
-
-h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-img {
-  width: 100%;
-}
-
-svg {
-  display: block !important;
-}
-
-a {
-  text-decoration: none;
-}
-
-/*TOP SECTION*/
-
-#top {
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-}
-
-#top img {
-  border-radius: 100%;
-  width: 10rem;
-  border: 4px solid var(--highlightColor);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
-@keyframes pulse {
-  0%, 100% {
-    opacity: 1;
+@layer base {
+  body {
+    @apply font-display text-lg bg-page-bg text-text-fg;
   }
-  50% {
-    opacity: 0.5;
-  }
-}
 
-#top p:first-of-type {
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: var(--highlightColor);
-}
-
-#top p:last-of-type {
-  line-height: 1.75rem;
-  font-size: 1.25rem;
-  text-wrap: pretty;
-}
-
-/*SKILLS AND PROJECTS SECTIONS*/
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 3rem;
-  width: 100%;
-  margin-top: 2rem;
-}
-
-.grid i {
-  grid-column: 1 / -1;
-  text-align: center;
-}
-
-i a {
-  color: var(--highlightColor);
-}
-
-.item {
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.item:hover {
-  transform: scale(1.05);
-}
-
-/*EDUCATION SECTION*/
-
-#education article {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-#education article > div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 1.5rem;
-  background-color: var(--cardColor);
-  border-radius: 1rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
-
-#education article > div > div p {
-  color: var(--subTextColor);
-  margin-top: 0.25rem;
-}
-
-#education article > div > p {
-  color: var(--smallTextColor);
-}
-
-@media (width < 55.5rem) {
-  main {
-    margin: 2rem;
-    padding: 2rem;
+  #root {
+    @apply flex justify-center overflow-hidden;
   }
 
   section:not(:last-of-type) {
-    padding-bottom: 2rem;
+    @apply pb-8 ll:pb-12 border-b-2 border-dashed border-accent-dark;
   }
 
   section:not(:first-of-type) {
-    padding-top: 2rem;
+    @apply pt-8 ll:pt-12;
   }
 
-  #top {
-    gap: 2rem;
-  }
-
-  .grid {
-    gap: 2rem;
-  }
-}
-
-@media (width < 50.5rem) {
-  h1 {
-    font-size: 3rem;
+  h1, h2, h3 {
+    @apply font-headers tracking-wide;
   }
 
   h2 {
-    font-size: 2.25rem;
-  }
-  
-  #top {
-    flex-direction: column;
-    text-align: center;
+    @apply text-4xl tl:text-5xl text-center;
   }
 
-  #top p:first-of-type {
-    font-size: 1.25rem;
+  h3 {
+    @apply text-2xl font-semibold;
   }
 
-  #top p:last-of-type {
-    font-size: 1.125rem;
+  a {
+    @apply text-accent-light;
+  }
+}
+
+@layer components {
+  .grid-layout {
+    @apply grid grid-cols-1 tl:grid-cols-2 gap-8 ll:gap-12 mt-8;
   }
 
-  .grid {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
-  #education article > div {
-    flex-direction: column;
-    align-items: flex-start;
+  .item {
+    @apply transition-transform duration-300 hover:transform-[scale(1.05)];
   }
 }

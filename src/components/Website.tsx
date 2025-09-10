@@ -3,7 +3,6 @@ import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { IconMap } from "../data/icons";
 import DOMPurify from "dompurify";
-import styles from "./Website.module.css";
 
 type Project = {
   title: string;
@@ -21,22 +20,22 @@ function Website({ data }: { data: Project }) {
   const screenshot = data.screenshot ? data.screenshot : "https://placehold.co/600x323?text=" + data.title.toUpperCase().split(" ").join("+");
 
   return (
-    <div className={`${styles.div} item`}>
+    <div className="item bg-card-bg rounded-2xl overflow-hidden flex flex-col shadow-lg">
       <img src={screenshot} />
-      <div>
+      <div className="p-6 flex flex-col justify-between h-full">
         <div>
           <h3>{data.title}</h3>
-          <p dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(data.description, {ADD_ATTR: ['target']})}}></p>
+          <p className="text-subtext-fg text-sm mt-2" dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(data.description, {ADD_ATTR: ['target']})}}></p>
         </div>
         <div>
-          <div>
+          <div className="flex flex-wrap gap-3 my-4">
             {data.skills.map((item) => (
-              <FontAwesomeIcon icon={IconMap[item]} />
+              <FontAwesomeIcon icon={IconMap[item]} className="h-7! w-auto! text-accent-dark" />
             ))}
           </div>
-          <div>
-            {data.isLive && <a href={live} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faUpRightFromSquare} /></a>}
-            {data.isGitHub && <a href={github} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>}
+          <div className="flex gap-3">
+            {data.isLive && <a href={live} target="_blank" rel="noopener noreferrer" className="hover:text-accent-dark"><FontAwesomeIcon icon={faUpRightFromSquare} className="h-6! w-auto!" /></a>}
+            {data.isGitHub && <a href={github} target="_blank" rel="noopener noreferrer" className="hover:text-accent-dark"><FontAwesomeIcon icon={faGithub} className="h-6! w-auto!" /></a>}
           </div>
         </div>
       </div>
