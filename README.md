@@ -1,5 +1,5 @@
 # PresidentTree94 Developer Portfolio
-A single-page application built with ReactJS and TypeScript that showcases my skills, education, and projects as a junior developer. This portfolio is designed with a nature-inspired theme, using a clean layout and a custom "leaf-score" rating system to visually represent my proficiency in various technologies.
+A single-page application built with ReactJS, Tailwind v4, and TypeScript that showcases my skills, education, and projects as a junior developer. This portfolio is designed with a nature-inspired theme, using a clean layout and a custom "leaf-score" rating system to visually represent my proficiency in various technologies.
 
 ## Features
 - **Dynamic Skill Scores:** The "Skills" section dynamically generates a visual score using leaf icons based on local JSON data.
