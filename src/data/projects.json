@@ -22,5 +22,13 @@
     "screenshot": "https://raw.githubusercontent.com/PresidentTree94/blog-preview-collection/refs/heads/main/public/screenshot.png",
     "isGitHub": true,
     "isLive": true
+  },
+  {
+    "title": "webtoons subscriber tracker",
+    "description": "A Python web scraper that records Webtoons URLs, titles, and subscriber counts. The user can add, remove, and update Webtoons as well as generate reports and plot subscriber activity.",
+    "skills": ["Python"],
+    "screenshot": "",
+    "isGitHub": true,
+    "isLive": false
   }
 ]
