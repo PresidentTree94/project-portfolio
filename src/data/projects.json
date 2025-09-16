@@ -25,7 +25,7 @@
   },
   {
     "title": "webtoons subscriber tracker",
-    "description": "A Python web scraper that records Webtoons URLs, titles, and subscriber counts. The user can add, remove, and update Webtoons as well as generate reports and plot subscriber activity.",
+    "description": "A web scraper that records Webtoons URLs, titles, and subscriber counts. The user can add, remove, and update Webtoons as well as generate reports and plot subscriber activity.",
     "skills": ["Python"],
     "screenshot": "",
     "isGitHub": true,
