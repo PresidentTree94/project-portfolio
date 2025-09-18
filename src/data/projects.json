@@ -27,7 +27,7 @@
     "title": "webtoons subscriber tracker",
     "description": "A web scraper that records Webtoons URLs, titles, and subscriber counts. The user can add, remove, and update Webtoons as well as generate reports and plot subscriber activity.",
     "skills": ["Python"],
-    "screenshot": "",
+    "screenshot": "https://raw.githubusercontent.com/PresidentTree94/webtoons-subscriber-tracker/refs/heads/main/screenshot.png",
     "isGitHub": true,
     "isLive": false
   }
