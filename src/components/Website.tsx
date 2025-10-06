@@ -21,7 +21,7 @@ function Website({ data }: { data: Project }) {
 
   return (
     <div className="item bg-card-bg rounded-2xl overflow-hidden flex flex-col shadow-lg">
-      <img src={screenshot} />
+      <img src={screenshot} className="aspect-4627/2500 object-cover object-top border-disable-fg border rounded-t-2xl"/>
       <div className="p-6 flex flex-col justify-between h-full">
         <div>
           <h3>{data.title}</h3>
