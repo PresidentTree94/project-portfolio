@@ -30,5 +30,13 @@
     "screenshot": "https://raw.githubusercontent.com/PresidentTree94/webtoons-subscriber-tracker/refs/heads/main/screenshot.png",
     "isGitHub": true,
     "isLive": false
+  },
+  {
+    "title": "psy password generator",
+    "description": "A Python password generator that prioritizes both security and human memorability. It leverages psychological principles to create strong passphrases that are easier to remember.",
+    "skills": ["Python"],
+    "screenshot": "https://raw.githubusercontent.com/PresidentTree94/psy-password-generator/refs/heads/main/screenshot.png",
+    "isGitHub": true,
+    "isLive": false
   }
 ]
