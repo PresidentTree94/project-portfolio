@@ -33,7 +33,7 @@
   },
   {
     "title": "psy password generator",
-    "description": "A Python password generator that prioritizes both security and memorability. It leverages psychological principles to create strong passphrases that are easier to remember.",
+    "description": "A password generator that prioritizes both security and memorability. It leverages psychological principles to create strong passphrases that are easier to remember.",
     "skills": ["Python"],
     "screenshot": "https://raw.githubusercontent.com/PresidentTree94/psy-password-generator/refs/heads/main/screenshot.png",
     "isGitHub": true,
