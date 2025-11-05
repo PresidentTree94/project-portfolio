@@ -10,7 +10,7 @@ type Project = {
   skills: string[];
   screenshot: string;
   isGitHub: boolean;
-  isLive: boolean;
+  isLive: boolean | string;
 }
 
 function Website({ data }: { data: Project }) {
