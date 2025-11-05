@@ -112,8 +112,17 @@ An assessment where skill levels is evaluated across five key criteria, with sco
 | 0     | Reverts changes, resets commits, and manages work-in-progress without losing context. |
 | 0     | Applies Git in team workflows, uses .gitignore effectively, and understands rebasing and squash merges. |
 
+### Vercel (2/10)
+| Score | Criteria |
+|:------|:---------|
+| 1     | Understands how to deploy web applications using Vercel's dashboard or CLI. |
+| 0     | Configures environment variables for different stages using Vercel's UI. |
+| 1     | Troubleshoots build errors and optimize performance using Vercel's analytics. |
+| 0     | Assigns custom domains, configure DNS records, and manage redirects or rewrites. |
+| 0     | Collaborates with team members and manages project roles using preview deployments and Git. |
+
 ## Projects
-- **Unpopular Exchange:** *Private*
+- **Unpopular Exchange:** [GitHub](https://github.com/PresidentTree94/unpopular-exchange), [Live Demo](https://unpopular-exchange.vercel.app/)
 - **QR Code Generator:** [GitHub](https://github.com/PresidentTree94/qr-code-generator), [Live Demo](https://presidenttree94.github.io/qr-code-generator/)
 - **Blog Preview Collection:** [GitHub](https://github.com/PresidentTree94/blog-preview-collection), [Live Demo](https://presidenttree94.github.io/blog-preview-collection/)
 - **Webtoons Subscriber Tracker:** [GitHub](https://github.com/PresidentTree94/webtoons-subscriber-tracker)
