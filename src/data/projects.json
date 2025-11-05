@@ -1,11 +1,11 @@
 [
   {
     "title": "unpopular exchange",
-    "description": "My first Next.js project: a web application for sharing, voting, and debating unpopular opinions and pet peeves. It will be deployed on Vercel and may use Supabase as a backend.",
-    "skills": ["HTML", "CSS", "Tailwind", "Typescript", "NextJS"],
+    "description": "My first Next.js project: a web application for sharing, voting, and debating unpopular opinions and pet peeves. It is deployed on Vercel and may use Supabase as a backend.",
+    "skills": ["HTML", "CSS", "Tailwind", "Typescript", "NextJS", "Vercel"],
     "screenshot": "",
     "isGitHub": true,
-    "isLive": false
+    "isLive": "https://unpopular-exchange.vercel.app/"
   },
   {
     "title": "qr code generator",

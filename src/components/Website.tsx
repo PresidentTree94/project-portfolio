@@ -16,7 +16,7 @@ type Project = {
 function Website({ data }: { data: Project }) {
   const name = data.title.split(" ").join("-");
   const github = "https://github.com/PresidentTree94/" + name;
-  const live = "https://presidenttree94.github.io/" + name + "/";
+  const live = typeof data.isLive === "boolean" ? "https://presidenttree94.github.io/" + name + "/" : data.isLive;
   const screenshot = data.screenshot ? data.screenshot : "https://placehold.co/600x323?text=" + data.title.toUpperCase().split(" ").join("+");
 
   return (

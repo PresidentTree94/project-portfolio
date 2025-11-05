@@ -108,5 +108,15 @@
       {"score": 0, "criteria": "Reverts changes, resets commits, and manages work-in-progress without losing context."},
       {"score": 0, "criteria": "Applies Git in team workflows, uses .gitignore effectively, and understands rebasing and squash merges."}
     ]
+  },
+  {
+    "label": "Vercel",
+    "checklist": [
+      {"score": 1, "criteria": "Understands how to deploy web applications using Vercel's dashboard or CLI."},
+      {"score": 0, "criteria": "Configures environment variables for different stages using Vercel's UI."},
+      {"score": 1, "criteria": "Troubleshoots build errors and optimize performance using Vercel's analytics."},
+      {"score": 0, "criteria": "Assigns custom domains, configure DNS records, and manage redirects or rewrites."},
+      {"score": 0, "criteria": "Collaborates with team members and manages project roles using preview deployments and Git."}
+    ]
   }
 ]
