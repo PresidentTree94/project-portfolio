@@ -76,15 +76,6 @@ An assessment where skill levels is evaluated across five key criteria, with sco
 | 0     | Optimizes performance using built-in components for images and metadata. |
 | 0     | Deploys applications with environment configuration and version control best practices. |
 
-### Unity (7/10)
-| Score | Criteria |
-|:------|:---------|
-| 2     | Writes C# scripts leveraging Unity’s API and lifecycle methods for game behavior. |
-| 2     | Configures game objects, prefabs, and component hierarchies effectively. |
-| 1     | Integrates user input and physics systems using Unity’s built-in tools. |
-| 1     | Designs interactive UI elements and manages scene transitions. |
-| 1     | Applies scripting patterns such as coroutines, event-driven architecture, and singletons. |
-
 ### Java (6/10)
 | Score | Criteria |
 |:------|:---------|

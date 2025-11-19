@@ -70,16 +70,6 @@
     ]
   },
   {
-    "label": "Unity",
-    "checklist": [
-      {"score": 2, "criteria": "Writes C# scripts leveraging Unity’s API and lifecycle methods for game behavior."},
-      {"score": 2, "criteria": "Configures game objects, prefabs, and component hierarchies effectively."},
-      {"score": 1, "criteria": "Integrates user input and physics systems using Unity’s built-in tools."},
-      {"score": 1, "criteria": "Designs interactive UI elements and manages scene transitions."},
-      {"score": 1, "criteria": "Applies scripting patterns such as coroutines, event-driven architecture, and singletons."}
-    ]
-  },
-  {
     "label": "Java",
     "checklist": [
       {"score": 1, "criteria": "Develops object-oriented programs using encapsulation, inheritance, and polymorphism."},
