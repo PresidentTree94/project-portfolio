@@ -75,7 +75,7 @@ An assessment where skill levels is evaluated across five key criteria, with sco
 | 0     | Develops backend functionality through API routes within the application. |
 | 0     | Optimizes performance using built-in components for images and metadata. |
 | 0     | Deploys applications with environment configuration and version control best practices. |
-
+<!--
 ### Java (6/10)
 | Score | Criteria |
 |:------|:---------|
@@ -84,7 +84,7 @@ An assessment where skill levels is evaluated across five key criteria, with sco
 | 1     | Implements robust error handling through exception management and custom exceptions. |
 | 1     | Performs file operations using Java I/O streams and readers. |
 | 1     | Constructs multithreaded applications with synchronization and concurrency control. |
-
+--->
 ### Python (6/10)
 | Score | Criteria |
 |:------|:---------|
@@ -113,6 +113,7 @@ An assessment where skill levels is evaluated across five key criteria, with sco
 | 0     | Collaborates with team members and manages project roles using preview deployments and Git. |
 
 ## Projects
+- **Indie Connect:** [GitHub](https://github.com/PresidentTree94/indie-connect)
 - **Unpopular Exchange:** [GitHub](https://github.com/PresidentTree94/unpopular-exchange), [Live Demo](https://unpopular-exchange.vercel.app/)
 - **QR Code Generator:** [GitHub](https://github.com/PresidentTree94/qr-code-generator), [Live Demo](https://presidenttree94.github.io/qr-code-generator/)
 - **Blog Preview Collection:** [GitHub](https://github.com/PresidentTree94/blog-preview-collection), [Live Demo](https://presidenttree94.github.io/blog-preview-collection/)

@@ -30,12 +30,12 @@ function Website({ data }: { data: Project }) {
         <div>
           <div className="flex flex-wrap gap-3 my-4">
             {data.skills.map((item) => (
-              <FontAwesomeIcon icon={IconMap[item]} className="h-7! w-auto! text-accent-dark" />
+              <FontAwesomeIcon icon={IconMap[item]} className="!h-7 !w-auto text-accent-dark" />
             ))}
           </div>
           <div className="flex gap-3">
-            {data.isLive != false && <a href={live} target="_blank" rel="noopener noreferrer" className="hover:text-accent-dark"><FontAwesomeIcon icon={faUpRightFromSquare} className="h-6! w-auto!" /></a>}
-            {data.isGitHub && <a href={github} target="_blank" rel="noopener noreferrer" className="hover:text-accent-dark"><FontAwesomeIcon icon={faGithub} className="h-6! w-auto!" /></a>}
+            {data.isLive != false && <a href={live} target="_blank" rel="noopener noreferrer" className="hover:text-accent-dark"><FontAwesomeIcon icon={faUpRightFromSquare} className="!h-6 !w-auto" /></a>}
+            {data.isGitHub && <a href={github} target="_blank" rel="noopener noreferrer" className="hover:text-accent-dark"><FontAwesomeIcon icon={faGithub} className="!h-6 !w-auto" /></a>}
           </div>
         </div>
       </div>

@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import Skills from "./data/skills.json";
 import Skill from "./components/Skill";
 import Websites from "./data/projects.json";
@@ -11,7 +13,7 @@ function App() {
         <article>
           <p className="text-2xl font-medium text-accent-light">Hello, I'm</p>
           <h1 className="text-5xl tl:text-7xl font-bold mt-2 mb-4">President<wbr/>Tree94</h1>
-          <p className="text-lg tl:text-xl wrap-pretty">A junior developer with a passion for building beautiful and functional digital experiences. I find inspiration in the growth of code and nature.</p>
+          <p className="text-lg tl:text-xl wrap-pretty">A junior developer with a passion for building beautiful and functional digital experiences.</p>
         </article>
       </section>
       <section>
@@ -48,6 +50,13 @@ function App() {
           {Websites.map((item) => (
             <Website data={item} />
           ))}
+        </article>
+      </section>
+      <section>
+        <h2>Contact</h2>
+        <p className="my-8 text-center text-lg tl:text-xl">I'm always open to new opportunities. Let's connect and build something great together.</p>
+        <article className="flex flex-wrap justify-center gap-8">
+          <a href="https://github.com/PresidentTree94" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:hover:text-accent-dark hover:scale-110"><FontAwesomeIcon icon={faGithub} className="!w-auto text-5xl tl:text-6xl" /></a>
         </article>
       </section>
     </main>

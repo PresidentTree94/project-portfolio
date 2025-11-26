@@ -59,6 +59,6 @@
   }
 
   .item {
-    @apply transition-transform duration-300 hover:transform-[scale(1.05)];
+    @apply transition-transform duration-300 hover:scale-105;
   }
 }

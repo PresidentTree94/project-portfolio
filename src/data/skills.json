@@ -70,16 +70,6 @@
     ]
   },
   {
-    "label": "Java",
-    "checklist": [
-      {"score": 1, "criteria": "Develops object-oriented programs using encapsulation, inheritance, and polymorphism."},
-      {"score": 2, "criteria": "Utilizes Java collections and control structures to manage data and logic flow."},
-      {"score": 1, "criteria": "Implements robust error handling through exception management and custom exceptions."},
-      {"score": 1, "criteria": "Performs file operations using Java I/O streams and readers."},
-      {"score": 1, "criteria": "Constructs multithreaded applications with synchronization and concurrency control."}
-    ]
-  },
-  {
     "label": "Python",
     "checklist": [
       {"score": 2, "criteria": "Writes clean and efficient code using core data structures and control flow."},

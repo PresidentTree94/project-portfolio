@@ -1,8 +1,16 @@
 [
   {
+    "title": "indie connect",
+    "description": "A NextJS application for indie creators to connect with other users, form teams, and create their passion projects. It will be deployed on Vercel and may use Supabase as a backend.",
+    "skills": ["Tailwind", "Typescript", "NextJS"],
+    "screenshot": "",
+    "isGitHub": true,
+    "isLive": false
+  },
+  {
     "title": "unpopular exchange",
     "description": "My first Next.js project: a web application for sharing, voting, and debating unpopular opinions and pet peeves. It is deployed on Vercel and may use Supabase as a backend.",
-    "skills": ["HTML", "CSS", "Tailwind", "Typescript", "NextJS", "Vercel"],
+    "skills": ["Tailwind", "Typescript", "NextJS", "Vercel"],
     "screenshot": "",
     "isGitHub": true,
     "isLive": "https://unpopular-exchange.vercel.app/"
@@ -10,7 +18,7 @@
   {
     "title": "qr code generator",
     "description": "A remake of Frontend Mentor's <a href='https://presidenttree94.github.io/qr-code-component/' target='_blank' rel='noopener noreferrer'>QR Code Component</a> challenge. Unlike the original, the user can customize, save, load, and download QR codes.",
-    "skills": ["HTML", "CSS", "Tailwind", "Typescript", "ReactJS"],
+    "skills": ["Tailwind", "Typescript", "ReactJS"],
     "screenshot": "https://raw.githubusercontent.com/PresidentTree94/qr-code-generator/refs/heads/main/public/screenshot.png",
     "isGitHub": true,
     "isLive": true
@@ -18,7 +26,7 @@
   {
     "title": "blog preview collection",
     "description": "A remake of Frontend Mentor's <a href='https://presidenttree94.github.io/blog-preview-card/' target='_blank' rel='noopener noreferrer'>Blog Preview Card</a> challenge. Unlike the original, the user can filter, sort, and search through nine fake blog posts.",
-    "skills": ["HTML", "CSS", "Tailwind", "Typescript", "ReactJS"],
+    "skills": ["Tailwind", "Typescript", "ReactJS"],
     "screenshot": "https://raw.githubusercontent.com/PresidentTree94/blog-preview-collection/refs/heads/main/public/screenshot.png",
     "isGitHub": true,
     "isLive": true
