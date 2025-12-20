@@ -9,9 +9,9 @@
   },
   {
     "title": "unpopular exchange",
-    "description": "My first Next.js project: a web application for sharing, voting, and debating unpopular opinions and pet peeves. It is deployed on Vercel and may use Supabase as a backend.",
+    "description": "A NextJS application for sharing, voting, and debating unpopular opinions and pet peeves. It is deployed on Vercel and uses Supabase as a backend.",
     "skills": ["Tailwind", "Typescript", "NextJS", "Vercel"],
-    "screenshot": "",
+    "screenshot": "https://raw.githubusercontent.com/PresidentTree94/unpopular-exchange/refs/heads/main/public/screenshot.png",
     "isGitHub": true,
     "isLive": "https://unpopular-exchange.vercel.app/"
   },
