@@ -22,7 +22,7 @@ function App() {
       <div className="bg-background/90 absolute inset-0 pointer-events-none"></div>
       <nav className="bg-background/80 border-b border-border/40 h-16 flex items-center justify-between px-4 sticky top-0 z-1 backdrop-blur-md">
         <div className="flex items-center gap-2">
-          <img src="/PresidentTree.png" className="h-8 w-auto rounded-sm border border-primary/20" />
+          <img src="/project-portfolio/PresidentTree.png" className="h-8 w-auto rounded-sm border border-primary/20" />
           <span className="font-bold text-xl text-primary font-display">PresidentTree94</span>
         </div>
         <div className="text-sm font-medium flex items-center gap-6">
@@ -43,7 +43,7 @@ function App() {
               <button className="font-tech py-3 px-8 rounded-md border border-primary/20 text-dark-primary shadow-xs flex items-center gap-2"><GithubIcon className="h-4 w-auto" />GitHub</button>
             </div>
           </div>
-          <img src="PresidentTree.png" className="h-80 w-auto rounded-2xl border-4 border-background shadow-2xl rotate-3" />
+          <img src="/project-portfolio/PresidentTree.png" className="h-80 w-auto rounded-2xl border-4 border-background shadow-2xl rotate-3" />
         </section>
         <section className="text-center">
           <h2 className="text-3xl mb-2">What I Work With</h2>
