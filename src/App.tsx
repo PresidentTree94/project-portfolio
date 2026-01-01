@@ -1,5 +1,6 @@
-import { GithubIcon, Globe, Palette, Wind, FileBraces, CodeXml, Cpu, Layers, Terminal, GitBranch, Server, Database, GraduationCap, Briefcase, ExternalLink } from 'lucide-react';
+import { GithubIcon, Globe, Palette, Wind, FileBraces, CodeXml, Cpu, Layers, Terminal, GitBranch, Server, Database, GraduationCap, Briefcase, ExternalLink, Mail } from 'lucide-react';
 import Project from './components/Project';
+import type { Application } from './types/Application';
 
 function App() {
 
@@ -17,19 +18,30 @@ function App() {
     {text: "Supabase", icon: Database}
   ];
 
+  const education = [
+    {school: "University of Maryland Global Campus", years: "2022 - 2024", degree: "Bachelor"},
+    {school: "College of Southern Maryland", years: "2020 - 2022", degree: "Associate"}
+  ]
+
+  const projects: Application[] = [
+    {title: "Unpopular Exchange", description: "A Next.js application for users to share, vote, and debate unpopular opinions and pet peeves.", link: "https://github.com/PresidentTree94/unpopular-exchange", skills: ["Next.js", "Tailwind", "Typescript", "Supabase"]},
+    {title: "Indie Connect", description: "A NextJS application for indie creators to connect with other users, form teams, and create their passion projects.", link: "https://github.com/PresidentTree94/indie-connect", skills: ["Next.js", "Tailwind", "Typescript"]},
+    {title: "QR Code Generator", description: <>A React.js extension of <a href="https://www.frontendmentor.io/solutions/qr-code-component-xixkp7hzyW" target="_blank" rel="noopener noreferrer" className="underline">Frontend Mentor's challenge</a>, turning the static design into an interactive QR code generator.</>, link: "https://github.com/PresidentTree94/qr-code-generator", skills: ["React.js", "Tailwind", "Typescript"]}
+  ]
+
   return (
     <>
-      <div className="bg-background/90 absolute inset-0 pointer-events-none"></div>
+      <div className="bg-background/90 absolute inset-0"></div>
       <nav className="bg-background/80 border-b border-border/40 h-16 flex items-center justify-between px-4 sticky top-0 z-1 backdrop-blur-md">
         <div className="flex items-center gap-2">
           <img src="/project-portfolio/PresidentTree.png" className="h-8 w-auto rounded-sm border border-primary/20" />
           <span className="font-bold text-xl text-primary font-display">PresidentTree94</span>
         </div>
         <div className="text-sm font-medium flex items-center gap-6">
-          <a href="">About</a>
-          <a href="">Skills</a>
-          <a href="">Projects</a>
-          <button className="bg-primary text-background font-tech px-3 py-2 rounded-md shadow-lg text-xs">Contact Me</button>
+          <a href="#" className="hover:text-primary transition-colors">About</a>
+          <a href="#skills" className="hover:text-primary transition-colors">Skills</a>
+          <a href="#projects" className="hover:text-primary transition-colors">Projects</a>
+          <button className="bg-primary text-background font-tech px-3 py-2 rounded-md shadow-lg text-xs transition-transform hover:-translate-y-0.5">Contact Me</button>
         </div>
       </nav>
       <main className="p-24 max-w-6xl m-auto space-y-24">
@@ -39,20 +51,20 @@ function App() {
             <h1 className="text-6xl">Hey, I'm PresidentTree94<span className="text-primary animate-pulse">.</span></h1>
             <p className="text-lg">I build web apps with React.js, Next.js, Tailwind, and Typescript. Good at turning ideas into working code. Always open to interesting projects or full-time roles.</p>
             <div className="flex gap-4 text-sm font-medium">
-              <button className="bg-primary text-background py-3 px-8 rounded-md shadow-xl">View Projects</button>
-              <button className="font-tech py-3 px-8 rounded-md border border-primary/20 text-dark-primary shadow-xs flex items-center gap-2"><GithubIcon className="h-4 w-auto" />GitHub</button>
+              <button className="bg-primary text-background py-3 px-8 rounded-md shadow-xl transition-transform hover:-translate-y-1">View Projects</button>
+              <a href="https://github.com/PresidentTree94" target="_blank" rel="noopener noreferrer" className="font-tech py-3 px-8 rounded-md border border-primary/20 text-dark-primary shadow-xs flex items-center gap-2 transition-color hover:bg-primary/5"><GithubIcon className="h-4 w-auto" />GitHub</a>
             </div>
           </div>
           <img src="/project-portfolio/PresidentTree.png" className="h-80 w-auto rounded-2xl border-4 border-background shadow-2xl rotate-3" />
         </section>
-        <section className="text-center">
+        <section id="skills" className="text-center scroll-mt-28">
           <h2 className="text-3xl mb-2">What I Work With</h2>
           <p>The tools I've learned and the ones I'm diving deeper into.</p>
           <div className="card p-8 shadow-sm mt-8 flex flex-wrap justify-center gap-3 text-sm font-tech font-semibold">
             {skills.map((s, index) => {
               const Icon = s.icon;
               return (
-                <div key={index} className="px-4 py-2 bg-secondary text-card rounded-md flex items-center gap-2"><Icon className="h-4 w-auto" />{s.text}</div>
+                <div key={index} className="px-4 py-2 bg-secondary text-card rounded-md flex items-center gap-2 transition-all hover:bg-primary hover:scale-110 cursor-default"><Icon className="h-4 w-auto" />{s.text}</div>
               );
             })}
           </div>
@@ -61,47 +73,51 @@ function App() {
           <div>
             <h2 className="text-2xl flex items-center gap-2 mb-8"><GraduationCap className="h-6 w-auto text-primary" />Education</h2>
             <div className="border-l-2 border-primary/20 space-y-8">
-              <div className="relative pl-8">
-                <div className="absolute w-4 h-4 rounded-full bg-background border-2 border-primary top-1 left-0 -translate-x-1/2"></div>
-                <h3 className="text-lg">University of Maryland Global Campus</h3>
-                <p className="font-tech text-sm mb-2">2022 - 2024</p>
-                <p>Bachelor of Science in Computer Science</p>
-              </div>
-              <div className="relative pl-8">
-                <div className="absolute w-4 h-4 rounded-full bg-background border-2 border-primary top-1 left-0 -translate-x-1/2"></div>
-                <h3 className="text-lg">College of Southern Maryland</h3>
-                <p className="font-tech text-sm mb-2">2020 - 2022</p>
-                <p>Associate of Science in Computer Science</p>
-              </div>
+              {education.map((edu, index) =>
+                <div key={index} className="relative group pl-8">
+                  <div className="absolute w-4 h-4 rounded-full bg-background border-2 border-primary top-1 left-0 -translate-x-1/2 transition-transform group-hover:scale-125"></div>
+                  <h3 className="text-lg transition-colors group-hover:text-primary">{edu.school}</h3>
+                  <p className="font-tech text-sm mb-2">{edu.years}</p>
+                  <p>{edu.degree} of Science in Computer Science</p>
+                </div>
+              )}
             </div>
           </div>
           <div>
             <h2 className="text-2xl flex items-center gap-2 mb-8"><Briefcase className="h-6 w-auto text-primary" />Experience</h2>
-            <div className="border-2 border-dashed border-border/60 rounded-xl shadow p-8 flex flex-col items-center text-center">
+            <div className="border-2 border-dashed border-border/60 rounded-xl shadow p-8 flex flex-col items-center text-center transition-colors hover:border-primary/40 cursor-default">
               <div className="h-12 bg-black aspect-square flex items-center justify-center rounded-full bg-border/50 mb-4">
                 <Briefcase className="h-6 w-auto" />
               </div>
               <h3 className="text-lg font-semibold">Fresh in the Game</h3>
               <p className="text-sm">No paid gigs yet, but plenty of projects and a solid foundation. Let's build something cool.</p>
-              <button className="text-xs font-medium text-dark-primary border border-dark-primary rounded-md px-3 py-1.5 mt-6">Download Resume</button>
+              <button className="text-xs font-medium text-dark-primary border border-dark-primary rounded-md px-3 py-2 mt-6 transition-colors hover:text-background hover:bg-primary hover:border-primary">Download Resume</button>
             </div>
           </div>
         </section>
-        <section>
+        <section id="projects" className="scroll-mt-28">
           <div className="flex justify-between items-end">
             <div>
               <h2 className="text-3xl mb-2">Featured Projects</h2>
               <p>Selected works from my portfolio.</p>
             </div>
-            <button className="text-sm font-medium flex items-center gap-2">View all projects<ExternalLink className="h-4 w-auto" /></button>
+            <button className="text-sm font-medium flex items-center gap-2 py-2 px-4 text-primary rounded-md transition-colors hover:bg-primary/10">View all projects<ExternalLink className="h-4 w-auto" /></button>
           </div>
-          <div className="grid grid-cols-3 gap-6 mt-8">
-            <Project />
-            <Project />
-            <Project />
+          <div className="grid grid-cols-2 gap-6 mt-8">
+            {projects.map((p, index) => <Project key={index} data={p} />)}
           </div>
         </section>
-        <section></section>
+        <section className="relative rounded-3xl overflow-hidden shadow-2xl group">
+          <div className="absolute inset-0 transition-transform group-hover:scale-105 duration-1000">
+            <img src="/project-portfolio/ForestLandscapeBanner.png" className="object-cover object-center w-full h-full opacity-40" />
+            <div className="absolute inset-0 bg-primary/60 mix-blend-multiply"></div>
+          </div>
+          <div className="text-white flex flex-col items-center gap-6 text-center relative p-24">
+            <h2 className="text-5xl text-white">Got a project?</h2>
+            <p className="font-medium w-3/4">I'm open to freelance work, contract gigs, and full-time roles. Send me an email or hit me up on GitHub.</p>
+            <button className="px-8 py-4 bg-white text-primary rounded-md text-sm font-bold flex items-center gap-4 transition-transform hover:scale-110 duration-400"><Mail className="h-5 w-auto" />Get in Touch</button>
+          </div>
+        </section>
       </main>
     </>
   )
