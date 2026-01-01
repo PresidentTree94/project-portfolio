@@ -19,7 +19,7 @@
   }
 
   #root {
-    @apply relative bg-[url("SeamlessMapPattern.png")] bg-size-[800px];
+    @apply relative bg-[url("/project-portfolio/SeamlessMapPattern.png")] bg-size-[800px];
   }
 
   #root > *:not(div) {
