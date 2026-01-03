@@ -25,9 +25,9 @@ function App() {
   ]
 
   const projects: Application[] = [
-    {title: "Unpopular Exchange", description: "A Next.js application for users to share, vote, and debate unpopular opinions and pet peeves.", link: "https://github.com/PresidentTree94/unpopular-exchange", skills: ["Next.js", "Tailwind", "Typescript", "Supabase"]},
-    {title: "Indie Connect", description: "A NextJS application for indie creators to connect with other users, form teams, and create their passion projects.", link: "https://github.com/PresidentTree94/indie-connect", skills: ["Next.js", "Tailwind", "Typescript"]},
-    {title: "QR Code Generator", description: <>A React.js extension of <a href="https://www.frontendmentor.io/solutions/qr-code-component-xixkp7hzyW" target="_blank" rel="noopener noreferrer" className="underline">Frontend Mentor's challenge</a>, turning the static design into an interactive QR code generator.</>, link: "https://github.com/PresidentTree94/qr-code-generator", skills: ["React.js", "Tailwind", "Typescript"]}
+    {title: "Unpopular Exchange", description: "A Next.js application for users to share, vote, and debate unpopular opinions and pet peeves.", skills: ["Next.js", "Tailwind", "Typescript", "Supabase"]},
+    {title: "Indie Connect", description: "A NextJS application for indie creators to connect with other users, form teams, and create their passion projects.", skills: ["Next.js", "Tailwind", "Typescript"]},
+    {title: "QR Code Generator", description: <>A React.js extension of <a href="https://www.frontendmentor.io/solutions/qr-code-component-xixkp7hzyW" target="_blank" rel="noopener noreferrer" className="underline">Frontend Mentor's challenge</a>, turning the static design into an interactive QR code generator.</>, skills: ["React.js", "Tailwind", "Typescript"]}
   ]
 
   const [isOpen, setIsOpen] = useState(false);
@@ -36,18 +36,18 @@ function App() {
   return (
     <>
       <div className="bg-background/90 absolute inset-0"></div>
-      <nav className={`bg-background/80 border-b border-border/40 ${isOpen ? "max-h-64" : "max-h-16"} sm:h-16 flex flex-col sm:flex-row sm:items-center gap-6 px-4 py-4 sm:py-0 sticky top-0 z-1 backdrop-blur-md overflow-hidden transition-all`}>
+      <nav className={`bg-background/80 border-b border-border/40 ${isOpen ? "max-h-64" : "max-h-16"} sm:h-16 px-4 py-4 sm:py-0 flex flex-col sm:flex-row sm:items-center gap-6 sticky top-0 z-1 backdrop-blur-md overflow-hidden transition-all`}>
         <div className="flex items-center justify-between gap-4 flex-1">
           <div className="flex items-center gap-2">
             <img src="/project-portfolio/PresidentTree.png" className="h-8 w-auto rounded-sm border border-primary/20" />
             <span className="font-bold text-xl text-primary font-display">PresidentTree94</span>
           </div>
-          <CircleChevronDown className={`h-6 w-auto min-w-6 sm:hidden transition-transform ${isOpen ? "-rotate-180" : ""}`} onClick={toggleMenu} />
+          <CircleChevronDown className={`h-6 w-auto min-w-6 sm:hidden cursor-pointer transition-transform ${isOpen ? "-rotate-180" : ""}`} onClick={toggleMenu} />
         </div>
         <div className="text-sm font-medium flex flex-col sm:flex-row sm:items-center gap-6">
-          <a href="#" className="hover:text-primary transition-colors">About</a>
-          <a href="#skills" className="hover:text-primary transition-colors">Skills</a>
-          <a href="#projects" className="hover:text-primary transition-colors">Projects</a>
+          <a href="#" className="hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>About</a>
+          <a href="#skills" className="hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>Skills</a>
+          <a href="#projects" className="hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>Projects</a>
           <button className="bg-primary text-background font-tech px-3 py-2 rounded-md shadow-lg text-xs transition-transform hover:-translate-y-0.5">Contact Me</button>
         </div>
       </nav>
@@ -65,7 +65,7 @@ function App() {
           </div>
           <img src="/project-portfolio/PresidentTree.png" className="w-52 lg:w-73 h-auto rounded-2xl border-4 border-background shadow-2xl rotate-3 transition-transform hover:scale-105 duration-500" />
         </section>
-        <section id="skills" className="text-center scroll-mt-28">
+        <section id="skills" className="text-center scroll-mt-75 sm:scroll-mt-28">
           <h2 className="text-3xl mb-2">What I Work With</h2>
           <p>The tools I've learned and the ones I'm diving deeper into.</p>
           <div className="card p-8 shadow-sm mt-8 flex flex-wrap justify-center gap-3 text-sm font-tech font-semibold">
@@ -103,7 +103,7 @@ function App() {
             </div>
           </div>
         </section>
-        <section id="projects" className="scroll-mt-28">
+        <section id="projects" className="scroll-mt-75 sm:scroll-mt-28">
           <div className="flex flex-col sm:flex-row justify-between sm:items-end gap-4">
             <div>
               <h2 className="text-3xl mb-2">Featured Projects</h2>

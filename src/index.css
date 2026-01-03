@@ -14,6 +14,10 @@
 }
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
   body {
     @apply bg-background font-base text-muted-primary;
   }
