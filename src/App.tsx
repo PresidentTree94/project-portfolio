@@ -1,6 +1,7 @@
-import { GithubIcon, Globe, Palette, Wind, FileBraces, CodeXml, Cpu, Layers, Terminal, GitBranch, Server, Database, GraduationCap, Briefcase, ExternalLink, Mail } from 'lucide-react';
+import { CircleChevronDown, GithubIcon, Globe, Palette, Wind, FileBraces, CodeXml, Cpu, Layers, Terminal, GitBranch, Server, Database, GraduationCap, Briefcase, Mail } from 'lucide-react';
 import Project from './components/Project';
 import type { Application } from './types/Application';
+import { useState } from 'react';
 
 function App() {
 
@@ -29,33 +30,40 @@ function App() {
     {title: "QR Code Generator", description: <>A React.js extension of <a href="https://www.frontendmentor.io/solutions/qr-code-component-xixkp7hzyW" target="_blank" rel="noopener noreferrer" className="underline">Frontend Mentor's challenge</a>, turning the static design into an interactive QR code generator.</>, link: "https://github.com/PresidentTree94/qr-code-generator", skills: ["React.js", "Tailwind", "Typescript"]}
   ]
 
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => {setIsOpen(!isOpen);};
+
   return (
     <>
       <div className="bg-background/90 absolute inset-0"></div>
-      <nav className="bg-background/80 border-b border-border/40 h-16 flex items-center justify-between px-4 sticky top-0 z-1 backdrop-blur-md">
-        <div className="flex items-center gap-2">
-          <img src="/project-portfolio/PresidentTree.png" className="h-8 w-auto rounded-sm border border-primary/20" />
-          <span className="font-bold text-xl text-primary font-display">PresidentTree94</span>
+      <nav className={`bg-background/80 border-b border-border/40 ${isOpen ? "max-h-64" : "max-h-16"} sm:h-16 flex flex-col sm:flex-row sm:items-center gap-6 px-4 py-4 sm:py-0 sticky top-0 z-1 backdrop-blur-md overflow-hidden transition-all`}>
+        <div className="flex items-center justify-between gap-4 flex-1">
+          <div className="flex items-center gap-2">
+            <img src="/project-portfolio/PresidentTree.png" className="h-8 w-auto rounded-sm border border-primary/20" />
+            <span className="font-bold text-xl text-primary font-display">PresidentTree94</span>
+          </div>
+          <CircleChevronDown className={`h-6 w-auto min-w-6 sm:hidden transition-transform ${isOpen ? "-rotate-180" : ""}`} onClick={toggleMenu} />
         </div>
-        <div className="text-sm font-medium flex items-center gap-6">
+        <div className="text-sm font-medium flex flex-col sm:flex-row sm:items-center gap-6">
           <a href="#" className="hover:text-primary transition-colors">About</a>
           <a href="#skills" className="hover:text-primary transition-colors">Skills</a>
           <a href="#projects" className="hover:text-primary transition-colors">Projects</a>
           <button className="bg-primary text-background font-tech px-3 py-2 rounded-md shadow-lg text-xs transition-transform hover:-translate-y-0.5">Contact Me</button>
         </div>
       </nav>
-      <main className="p-24 max-w-6xl m-auto space-y-24">
-        <section className="flex items-center gap-24">
-          <div className="space-y-6">
+      <main className="p-12 lg:p-18 max-w-6xl m-auto space-y-24 flex flex-col items-center overflow-hidden">
+        <section className="flex flex-col-reverse md:flex-row items-center gap-14 lg:gap-20">
+          <div className="space-y-6 flex flex-col text-center md:text-left items-center md:items-start w-full @container">
             <span className="block w-fit uppercase bg-primary/5 rounded-md py-0.5 px-2.5 text-xs font-semibold text-primary font-tech border border-primary/20">Open for work</span>
-            <h1 className="text-6xl">Hey, I'm PresidentTree94<span className="text-primary animate-pulse">.</span></h1>
+            <h1 className="hidden @xs:inline text-4xl sm:text-5xl lg:text-6xl">Hi, I'm PresidentTree94<span className="text-primary animate-pulse">.</span></h1>
+            <h1 className="@xs:hidden text-4xl">Hi, I'm President<wbr/>Tree94<span className="text-primary animate-pulse">.</span></h1>
             <p className="text-lg">I build web apps with React.js, Next.js, Tailwind, and Typescript. Good at turning ideas into working code. Always open to interesting projects or full-time roles.</p>
-            <div className="flex gap-4 text-sm font-medium">
+            <div className="flex flex-wrap justify-center gap-4 text-sm font-medium">
               <button className="bg-primary text-background py-3 px-8 rounded-md shadow-xl transition-transform hover:-translate-y-1">View Projects</button>
               <a href="https://github.com/PresidentTree94" target="_blank" rel="noopener noreferrer" className="font-tech py-3 px-8 rounded-md border border-primary/20 text-dark-primary shadow-xs flex items-center gap-2 transition-color hover:bg-primary/5"><GithubIcon className="h-4 w-auto" />GitHub</a>
             </div>
           </div>
-          <img src="/project-portfolio/PresidentTree.png" className="h-80 w-auto rounded-2xl border-4 border-background shadow-2xl rotate-3" />
+          <img src="/project-portfolio/PresidentTree.png" className="w-52 lg:w-73 h-auto rounded-2xl border-4 border-background shadow-2xl rotate-3 transition-transform hover:scale-105 duration-500" />
         </section>
         <section id="skills" className="text-center scroll-mt-28">
           <h2 className="text-3xl mb-2">What I Work With</h2>
@@ -69,7 +77,7 @@ function App() {
             })}
           </div>
         </section>
-        <section className="grid grid-cols-2 gap-12">
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div>
             <h2 className="text-2xl flex items-center gap-2 mb-8"><GraduationCap className="h-6 w-auto text-primary" />Education</h2>
             <div className="border-l-2 border-primary/20 space-y-8">
@@ -96,14 +104,14 @@ function App() {
           </div>
         </section>
         <section id="projects" className="scroll-mt-28">
-          <div className="flex justify-between items-end">
+          <div className="flex flex-col sm:flex-row justify-between sm:items-end gap-4">
             <div>
               <h2 className="text-3xl mb-2">Featured Projects</h2>
               <p>Selected works from my portfolio.</p>
             </div>
-            <button className="text-sm font-medium flex items-center gap-2 py-2 px-4 text-primary rounded-md transition-colors hover:bg-primary/10">View all projects<ExternalLink className="h-4 w-auto" /></button>
+            {/*<button className="text-sm font-medium flex items-center gap-2 py-2 px-4 text-primary rounded-md transition-colors hover:bg-primary/10">View all projects<ExternalLink className="h-4 w-auto" /></button>*/}
           </div>
-          <div className="grid grid-cols-2 gap-6 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             {projects.map((p, index) => <Project key={index} data={p} />)}
           </div>
         </section>
@@ -112,9 +120,9 @@ function App() {
             <img src="/project-portfolio/ForestLandscapeBanner.png" className="object-cover object-center w-full h-full opacity-40" />
             <div className="absolute inset-0 bg-primary/60 mix-blend-multiply"></div>
           </div>
-          <div className="text-white flex flex-col items-center gap-6 text-center relative p-24">
-            <h2 className="text-5xl text-white">Got a project?</h2>
-            <p className="font-medium w-3/4">I'm open to freelance work, contract gigs, and full-time roles. Send me an email or hit me up on GitHub.</p>
+          <div className="text-white flex flex-col items-center gap-6 text-center relative p-12 md:p-24">
+            <h2 className="text-4xl sm:text-5xl text-white">Got a project?</h2>
+            <p className="font-medium sm:w-3/4 text-lg">I'm open to freelance work, contract gigs, and full-time roles. Send me an email or hit me up on GitHub.</p>
             <button className="px-8 py-4 bg-white text-primary rounded-md text-sm font-bold flex items-center gap-4 transition-transform hover:scale-110 duration-400"><Mail className="h-5 w-auto" />Get in Touch</button>
           </div>
         </section>
