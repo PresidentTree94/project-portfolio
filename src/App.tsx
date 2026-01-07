@@ -25,8 +25,8 @@ function App() {
   ]
 
   const projects: Application[] = [
-    {title: "Unpopular Exchange", description: "A Next.js application for users to share, vote, and debate unpopular opinions and pet peeves.", skills: ["Next.js", "Tailwind", "Typescript", "Supabase"]},
-    {title: "Indie Connect", description: "A NextJS application for indie creators to connect with other users, form teams, and create their passion projects.", skills: ["Next.js", "Tailwind", "Typescript"]},
+    {title: "Unpopular Exchange", description: "A web application for users to share, vote, and debate unpopular opinions and pet peeves.", skills: ["Next.js", "Tailwind", "Typescript", "Supabase"]},
+    {title: "Indie Connect", description: "A web application for indie creators to connect with other users, form teams, and create their passion projects.", skills: ["Next.js", "Tailwind", "Typescript"]},
     {title: "QR Code Generator", description: <>A React.js extension of <a href="https://www.frontendmentor.io/solutions/qr-code-component-xixkp7hzyW" target="_blank" rel="noopener noreferrer" className="underline">Frontend Mentor's challenge</a>, turning the static design into an interactive QR code generator.</>, skills: ["React.js", "Tailwind", "Typescript"]}
   ]
 
@@ -69,12 +69,9 @@ function App() {
           <h2 className="text-3xl mb-2">What I Work With</h2>
           <p>The tools I've learned and the ones I'm diving deeper into.</p>
           <div className="card p-8 shadow-sm mt-8 flex flex-wrap justify-center gap-3 text-sm font-tech font-semibold">
-            {skills.map((s, index) => {
-              const Icon = s.icon;
-              return (
-                <div key={index} className="px-4 py-2 bg-secondary text-card rounded-md flex items-center gap-2 transition-all hover:bg-primary hover:scale-110 cursor-default"><Icon className="h-4 w-auto" />{s.text}</div>
-              );
-            })}
+            {skills.map((s, index) =>
+              <div key={index} className="px-4 py-2 bg-secondary text-card rounded-md flex items-center gap-2 transition-all hover:bg-primary hover:scale-110 cursor-default"><s.icon className="h-4 w-auto" />{s.text}</div>
+            )}
           </div>
         </section>
         <section className="grid grid-cols-1 md:grid-cols-2 gap-12">
