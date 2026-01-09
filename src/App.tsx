@@ -96,7 +96,7 @@ function App() {
               </div>
               <h3 className="text-lg font-semibold">Fresh in the Game</h3>
               <p className="text-sm">No paid gigs yet, but plenty of projects and a solid foundation. Let's build something cool.</p>
-              <button className="text-xs font-medium text-dark-primary border border-dark-primary rounded-md px-3 py-2 mt-6 transition-colors hover:text-background hover:bg-primary hover:border-primary">Download Resume</button>
+              <a href="/project-portfolio/MyResume.pdf" download className="text-xs font-medium text-dark-primary border border-dark-primary rounded-md px-3 py-2 mt-6 transition-colors hover:text-background hover:bg-primary hover:border-primary">Download Resume</a>
             </div>
           </div>
         </section>
