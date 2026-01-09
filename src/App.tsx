@@ -25,8 +25,8 @@ function App() {
   ]
 
   const projects: Application[] = [
-    {title: "Unpopular Exchange", description: "A web application for users to share, vote, and debate unpopular opinions and pet peeves.", skills: ["Next.js", "Tailwind", "Typescript", "Supabase"]},
-    {title: "Indie Connect", description: "A web application for indie creators to connect with other users, form teams, and create their passion projects.", skills: ["Next.js", "Tailwind", "Typescript"]},
+    {title: "Unpopular Exchange", description: "A web application for users to share, vote, and debate unpopular opinions and pet peeves.", skills: ["Next.js", "Tailwind", "Typescript", "Vercel", "Supabase"]},
+    {title: "Indie Connect", description: "A web application for indie creators to connect with other users, form teams, and create their passion projects.", skills: ["Next.js", "Tailwind", "Typescript", "Vercel"]},
     {title: "QR Code Generator", description: <>A React.js extension of <a href="https://www.frontendmentor.io/solutions/qr-code-component-xixkp7hzyW" target="_blank" rel="noopener noreferrer" className="underline">Frontend Mentor's challenge</a>, turning the static design into an interactive QR code generator.</>, skills: ["React.js", "Tailwind", "Typescript"]}
   ]
 
