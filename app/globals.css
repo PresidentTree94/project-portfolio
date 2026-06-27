@@ -1,26 +1,44 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-background: hsl(40, 20%, 94%);
+  --color-primary: hsl(150, 50%, 25%);
+  --color-muted-primary: hsl(150, 20%, 40%);
+  --color-dark-primary: hsl(150, 40%, 15%);
+  --color-secondary: hsl(30, 40%, 40%);
+  --color-card: hsl(40, 20%, 97%);
+  --color-border: hsl(150, 20%, 80%);
+  --font-display: var(--font-space-grotesk);
+  --font-tech: var(--font-fira-code);
+  --font-body: var(--font-inter);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply font-body text-muted-primary bg-[url("/SeamlessMapPattern.png")] bg-size-[800px];
+}
+
+body > *:not(header, div) {
+  position: relative;
+}
+
+header > div, main, footer > div {
+  @apply max-w-6xl mx-auto;
+}
+
+h1, h2, h3 {
+  @apply font-display text-dark-primary;
+}
+
+h1, h2 {
+  @apply font-bold;
+}
+
+i {
+  @apply font-normal;
+}
+
+@layer components {
+  .card {
+    @apply bg-card/50 border border-border/50 rounded-xl;
+  }
 }
