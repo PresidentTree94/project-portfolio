@@ -26,7 +26,7 @@ export default function Navbar() {
         </div>
         <nav className={`${open ? "flex" : "hidden md:flex"} flex-col md:flex-row items-center gap-6 px-6 py-6 md:py-0 text-sm font-medium border-t border-border/40 md:border-t-0`}>
           {navs.map((n, index) => (
-            <a key={index} href={n.link} className={`${n.link === "#contact" ? "bg-primary text-background font-tech px-3 py-2 rounded-md shadow-lg text-xs hover:-translate-y-0.5 transition-transform" : "hover:text-primary transition-colors"}`}>{n.label}</a>
+            <a key={index} href={n.link} className={`${n.link === "#contact" ? "bg-primary text-background font-tech px-3 py-2 rounded-md shadow-lg text-xs hover:-translate-y-0.5 transition-transform" : "hover:text-primary transition-colors"}`} onClick={() => setOpen(false)}>{n.label}</a>
           ))}
         </nav>
       </div>
