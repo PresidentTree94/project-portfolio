@@ -34,6 +34,35 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${spaceGrotesk.variable} ${firaCode.variable} ${inter.variable} h-full antialiased`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "PresidentTree94",
+              "jobTitle": "Junior Web Developer",
+              "url": "https://project-portfolio-jade-nu.vercel.app",
+              "sameAs": [
+                "https://github.com/PresidentTree94"
+              ]
+            }).replace(/</g, "\\u003c")
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "url": "https://project-portfolio-jade-nu.vercel.app",
+              "name": "PresidentTree94's Project Portfolio",
+              "description": "A website detailing developer skills, education, experience, and projects."
+            }).replace(/</g, "\\u003c")
+          }}
+        />
+      </head>
       <body className="min-h-full flex flex-col relative">
         <div className="bg-background/90 absolute inset-0"></div>
         <Navbar />
