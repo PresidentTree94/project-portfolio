@@ -22,6 +22,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "PresidentTree94's Project Portfolio",
   description: "A website detailing developer skills, education, experience, and projects.",
+  alternates: {
+    canonical: "https://project-portfolio-jade-nu.vercel.app",
+  }
 };
 
 export default function RootLayout({

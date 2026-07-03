@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { client } from "@/sanity/lib/client";
 import { getAllSkills, getAllProjects } from "@/sanity/lib/queries";
 import Image from "next/image";
@@ -13,7 +14,22 @@ export default async function Home() {
   const projectData = await client.fetch(getAllProjects, {}, { next: { tags: ["projectDocument"] } });
 
   return (
-    <main className="mt-16 px-8 py-16 sm:px-16 space-y-16">
+    <>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "url": "https://project-portfolio-jade-nu.vercel.app",
+              "name": "PresidentTree94's Project Portfolio",
+              "description": "A website detailing developer skills, education, experience, and projects."
+            }).replace(/</g, "\\u003c")
+          }}
+        />
+      </Head>
+      <main className="mt-16 px-8 py-16 sm:px-16 space-y-16">
       <section id="about" className="flex flex-col-reverse lg:flex-row items-center gap-10 sm:gap-18">
         <div className="space-y-6 flex-1 text-center lg:text-left">
           <span className="inline-block uppercase bg-primary/5 rounded-md py-0.5 px-2.5 text-xs font-semibold text-primary font-tech border border-primary/20">Open for work</span>
@@ -91,5 +107,6 @@ export default async function Home() {
         </div>
       </section>
     </main>
+    </>
   );
 }
