@@ -12,10 +12,10 @@
     "@sanity/client": "^7.23.2",
     "@sanity/image-url": "^2.1.1",
     "@sanity/vision": "^6.5.0",
-    "next": "16.2.10",
+    "next": "16.2.12",
     "next-sanity": "^13.1.3",
-    "react": "19.2.7",
-    "react-dom": "19.2.7",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
     "remixicon": "^4.9.1",
     "sanity": "^6.5.0",
     "styled-components": "^6.4.3"
