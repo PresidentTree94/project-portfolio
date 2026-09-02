@@ -34,5 +34,8 @@
     "unrs-resolver@1.12.2": true,
     "sharp@0.34.5": true,
     "esbuild@0.28.2": true
+  },
+  "overrides": {
+    "@sanity/workbench": "0.1.0-alpha.45"
   }
 }
